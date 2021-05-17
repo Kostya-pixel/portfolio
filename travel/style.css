@@ -1,0 +1,208 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0;
+    
+}
+.firstPage {
+    background-image: url(https://www.softportal.com/scr/25483/zastavka-chasi-ukraina-big-1.jpg);
+    width: 100%;
+    height: 950px;
+}
+.startup {
+    color: white;
+    margin-right: 400px;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 50px;
+}
+li {
+    color: white;
+    margin-right: 50px;
+    font-size: 25px;
+    text-shadow: 5px 5px 8px rgb(247, 5, 5);
+}
+li:hover {
+    color: red;
+}
+.header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block {
+    width: 100%;
+    height: 500px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px rgb(247, 5, 5);
+}
+.secondPage {
+    background-image: url(https://i.artfile.ru/2800x1575_852560_[www.ArtFile.ru].jpg);
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+.block2 {
+    width: 100%;
+    border: 2px solid rgb(0, 255, 55);
+    
+}
+.travel {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px rgb(247, 5, 25);
+    text-align: center;
+    
+    
+}
+h2 {
+    margin: 0px;
+    padding-top: 80px;
+}
+.img1 {
+    box-shadow: 10px 10px 5px rgba(110, 101, 101, 0.5);
+    height: 300px;
+    width: 300px;
+    transform: scale(1, 1);
+    transition-duration: 1s;
+}
+.img1:hover {
+    box-shadow: 50px 50px 5px rgba(250, 85, 85, 0.5);
+    transform: scale(1.5, 1.5);
+}
+a .kuiv__page{
+    text-decoration: none;
+}
+.img2 {
+    box-shadow: 10px 10px 5px rgba(110, 101, 101, 0.5);
+    height: 300px;
+    width: 300px;
+    transform: scale(1, 1);
+    transition-duration: 1.5s;
+}
+.img2:hover {
+    box-shadow: 30px 30px 1px rgba(250, 85, 85, 0.5);
+    transform: scale(2.5, 2.5);
+}
+.img3 {
+    box-shadow: 10px 10px 5px rgba(110, 101, 101, 0.5);
+    height: 300px;
+    width: 300px;
+    transform: scale(1, 1);
+    transition-duration: 1s;
+    transform: translate(0px, 0px);
+    
+    }
+.img3:hover {
+    box-shadow: 50px 50px 5px rgba(250, 85, 85, 0.5);
+    transform: scale(1.5, 1.5)
+    }
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1850px;
+    
+    margin-top: 100px;
+   
+}
+.architecturePage{
+    background-image: url(https://pizzatravel.com.ua/uploads/2017/29154.jpg);
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.archi{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px rgb(247, 5, 25);
+    text-align: center;
+}
+.citys{
+    display: flex;
+    justify-content: space-around;
+}
+.kuiv__page{
+    text-decoration: none;
+}
+
+.Kiev{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px rgb(19, 18, 18);
+    text-decoration: none;
+}
+.Kiev:hover{
+    margin-top: 5px;
+    text-shadow: 5px 5px 8px rgb(216, 12, 12);
+
+}
+.lviv{
+    margin-left: 100px;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px rgb(19, 18, 18);
+}
+.odessa{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px rgb(19, 18, 18);
+}
+.homeded{
+    display: flex;
+    justify-content: flex-end;
+}
+.home__bakc{
+    color: white;
+    margin-right: 50px;
+    font-size: 25px;
+    
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn{
+    background: rgba(200, 150, 150, 0.5);
+    height: 100px;
+    width: 100px;
+    border-radius: 40%;
+    margin-right: 10px;
+    
+}
+.btn:hover{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px 5px rgb(88, 130, 158);
+    border: none;
+}
