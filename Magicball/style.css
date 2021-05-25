@@ -1,0 +1,49 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+.app-magic-ball {
+display: flex;
+justify-content: center;
+padding-top: 20px;
+}
+.app-magic-ball img{
+width: 500px;
+height: auto;
+}
+button {
+border: none;
+padding: 0px;
+}
+.btn-block {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+.btn {
+color: white;
+border: 1px solid rgb(158, 142, 142);
+}
+.btn:hover {
+color: slategray;
+}
+.prediction-response-block{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 200px;
+}
+.prediction-response{
+  flex-wrap: wrap;
+  height: inherit;
+  width: 1000px;
+  height: 100px;
+  color:white;
+  text-align: center;
+  line-height: 40px;
+  padding-top: 30px;
+  font-size: 20px;
+  overflow: hidden;
+  border: 1px solid rgb(51, 50, 50);
+}
