@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color:#222222;
+    /* background: linear-gradient(360deg, #222222 0%, rgba(0, 0, 0, 0) 100%), url(.jpg); */
+}
+
+:root{
+    --textColor: #ffff;
+    --aTextColor: #999999;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 1440px;
+    height: 540px;
+    background-image: url(./images/bgd.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    overflow:auto;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+
+.header__nav_wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 940px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    color: var(--textColor);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: var(--aTextColor);
+}
+
+.navigation a:hover{
+    color: #00D6B4;
+}
+
+.header__section_wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 940px;
+    margin-top: 138px;
+}
+
+.header__section_title{
+    width: 465px;
+    height: fit-content;
+    text-align: center;
+}
+
+.header__section_title h1{
+    color: var(--textColor);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    margin: 0;
+}
+
+.header__section_button {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 137px;
+    height: 39px;
+    border: 1px solid #00D6B4;
+    color: #00D6B4;
+    margin-top: 29px;
+    /* padding: 10px 25px; */
+}
+
+.header__section_button:hover{
+    color: var(--aTextColor);
+    border:1px solid var(--aTextColor);
+}
+
+/* ---------section colection works---------- */
+
+
+.colection__works_wrapper{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 940px;
+    min-height: 802px;
+}
+
+.colection__works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.colection__works a{
+    margin-bottom: 22px;
+}
+
+.colection__works a:hover{
+    opacity: 0.9;
+}
+
+h3{
+    color: var(--textColor);
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+/* ------------Footer--------------- */
+
+.footer{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 122px;
+    text-align: center;
+}
+
+.footer h4{
+    color: var(--textColor);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.footer p{
+    color: var(--aTextColor);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Модальне вікно */
+.modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.8); 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 500px;
+    min-height: 300px;
+}
+.close_cont, .close_about, .close_consult {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text-content {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--aTextColor);
+}
+
+.input_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+/* .input_wrapper:last-child{
+    align-items: center;
+} */
+.input_style {
+    height: 30px;
+    width: 300px;
+    outline:none;
+    border: 1px solid #00D6B4;
+    color: #222222;
+    border-radius: 5px;
+}
+.submit_style {
+    height: 45px;
+    width: 200px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    border: 1px solid #00D6B4;
+    border-radius: 5px;
+    color: #222222;
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.submit_style:hover{
+    border: 1px solid #222222;
+    color:#222222;
+    background-color: #00D6B4;
+}

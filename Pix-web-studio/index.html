@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>K-Pixel portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__nav_wrapper">
+            <nav>
+                <div class="logo">k-pixel</div>
+                <div class="navigation">
+                    <a href="#portfolio">Портфоліо</a>
+                    <a href="#" id="myBtnAbout">Про нас</a>
+                    <a href="#" id="myBtnCont">Контакти</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header__section_wrapper">
+            <div class="header__section_title">
+                <h1>Ми створюємо красиві web-sites та landing pages.</h1>
+            </div>
+            <a href="#" id="myBtnConsult" class="header__section_button"><div>Отримати консультацію</div></a>
+        </div>
+    </header>
+
+    <section class="colection__works_wrapper">
+        <h3>Маленька колекція наших робіт ;-)</h3>
+        <div class="colection__works" id="portfolio">
+            <a href="#"><img src="./images/IMAGE1.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE2.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE3.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE4.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE5.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE6.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE7.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE8.png" alt=""></a>
+            <a href="#"><img src="./images/IMAGE9.png" alt=""></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h4>k-pixel</h4>
+        <p>pixel - be happy :)</p>
+    </footer>
+
+
+
+<!-- ----------------modal contacts------------------------>
+
+    <div id="myModalCont" class="modal">
+        <div class="modal-content">
+            <span class="close_cont">&times;</span>
+            <h1>Наші контакти :</h1>
+            <div class="text-content">
+                <p>місто Київ, вул. Перемоги 24</p>
+                <p>тел: (099)-999-99-99 + Viber, Telegram</p>
+                <p>тел: (088)-888-88-88 + Viber, Telegram</p>
+                <p>Email: k-pixel_be-happy@gmail.com</p>
+            </div>
+<!-- ----------------modal About------------------------>
+            
+        </div>
+    </div>
+    
+    <div id="myModalAbout" class="modal">
+        <div class="modal-content">
+            <span class="close_about">&times;</span>
+            <h1>Трішки інформації про нас</h1>
+            <div class="text-content">
+                <p>Ми, молода і амбіційна команда, яка спрямовує всі знання і зусилля
+                    для задоволення Ваших бажань у області сайто будівництва та архітектури. 
+                    Від Вас необхідно лише бажання і трішки розуміння того, що Ви хочете 
+                    бачити у браузері та для яких цілей. 
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------modal consultation------------------------>
+    
+    <div id="myModaConsult" class="modal">
+        <div class="modal-content">
+            <span class="close_consult">&times;</span>
+            <p>Залиште Ваші контактні данні і ми з Вами зв'яжемось</p>
+            <div class="input_wrapper">
+                <input type="text" class="input_style" placeholder="Введіть Ваше ім'я" id="name">
+                <input type="tel" class="input_style" placeholder="Тел: 099-999-99-99" id="tel">
+                <input type="submit" class="submit_style" value="Залишити запит" id="sub">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./formData.js"></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
