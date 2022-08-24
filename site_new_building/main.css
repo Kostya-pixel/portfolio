@@ -241,7 +241,7 @@ h2{
     flex-wrap: wrap; 
     width: 100%;
     height: 560px;
-    background-image: url(/images/Rectangle.png);
+    background-image: url(images/Rectangle.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
